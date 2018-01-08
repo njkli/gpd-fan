@@ -100,7 +100,6 @@ class GpdFan < Admiral::Command
       @@logger.info "TURBO off"
     else
       turbo(1)
-      speed("off")
     end
   end
 end
